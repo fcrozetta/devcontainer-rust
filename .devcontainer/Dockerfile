@@ -1,4 +1,5 @@
 FROM debian:latest
+LABEL org.opencontainers.image.description FCrozetta simple rust Image for devcontainer
 
 RUN apt update
 RUN apt install build-essential -y
